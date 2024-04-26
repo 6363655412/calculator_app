@@ -1,5 +1,7 @@
 from cal_func import do_addition,do_div
 from cal_func import do_sub
+from multiple import do_mul
+from area import do_area
 def main():
     print('''Welcome calculator app..
           1.add
