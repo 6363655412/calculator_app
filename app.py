@@ -1,6 +1,5 @@
 from cal_func import do_addition
 from cal_func import do_sub
-from mul import mul
 def main():
     print('''Welcome calculator app..
           1.add
@@ -16,9 +15,6 @@ def main():
         result =  do_addition(a,b)
     elif user_input == "2":
         result = do_sub(a,b)
-    elif user_input == "3":
-        result =  mul(a,b)
-    print('Result:',result)
 
 if __name__ == "__main__":
     main()
