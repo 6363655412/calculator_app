@@ -1,10 +1,11 @@
-from cal_func import do_addition
+from cal_func import do_addition,do_div
 from cal_func import do_sub
 def main():
     print('''Welcome calculator app..
           1.add
           2.sub
-          3.mul''')
+          3.mul
+          4.Div''')
 
     user_input = input("select the function")
     a = int(input("value of A"))
@@ -15,6 +16,8 @@ def main():
         result =  do_addition(a,b)
     elif user_input == "2":
         result = do_sub(a,b)
+    elif user_input == "4":
+        result = do_div(a,b)
 
 if __name__ == "__main__":
     main()
